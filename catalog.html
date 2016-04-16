@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+<body>
+  <div class="block">
+    <header class="main-header">
+      <nav class="menu">
+        <div>
+          <a href="#">информация</a>
+        </div>
+        <div>
+          <a href="#">фото и видео</a>
+        </div>
+         <div class="logo">
+          <a href="index.html"><img src="img/logo.png" width="138" height="71" alt="logo"></a>
+        </div>
+        <div>
+          <a href="#">карта штата</a>
+        </div>
+        <div>
+          <a href="#">гостиницы</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <form class="filter">
+        <div class="check">
+          <p>инфраструктура:</p>
+            
+          <label class="icon-check-on" for="infra"> бассейн </label>
+            <input type="checkbox" id="infra">
+          <label class="icon-check-off" for="parking"> <input type="checkbox" id="parking"> парковка</label>
+          <label class="icon-check-off" for="wifi"> <input type="checkbox" id="wifi"> WI-FI</label>
+                
+        </div>
+        <div class="type">
+          <p>тип жилья:</p>
+         
+          <label class="icon-check-on" for="hotel"> <input type="checkbox" id="hotel">Гостиница</label>
+          
+          <label class="icon-check-on" for="motel"><input type="checkbox" id="motel">Мотель</label>
+          <label class="icon-check-on" for="apart">           <input type="checkbox" id="apart">
+апартаменты</label>
+            
+        </div>
+        <div class="filter-range">
+          <p>стоимость в сутки (р):</p>
+          <div class="price-controls">
+            <label class="min-price">от<input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до<input type="text" name="max-price" value="3000"></label>
+          </div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+          <button class="btn-transparent" type="submit">показать</button>
+        </div>
+      </form>
+      <section class="found">
+          <div class="found-block">
+        <h2> Найдено:3</h2>
+        <p class="found-sorting">сортировка:</p>
+        <a class="active" href="js/">по цене</a>
+        <a class="sort" href="js/">по типу</a>
+        <a class="sort" href="js/">по рейтингу</a>  
+              </div>
+          <div class="arrows">
+        <a class="arrow icon-up-dir" href="catalog.html"></a>
+        <a  class="arrow icon-down-dir" href="catalog.html"></a>
+              </div>
+      </section>
+      <section class="hotels">  
+        <div class="amara">
+          <div class="prev">
+            <img src="img/amara.jpg" width="135" height="90" alt="img">
+
+
+            <h2>amara resort & spa</h2>
+            <p class="spa">гостиница <span>от 3500 р.</span></p>  
+            <a href="catalog.html" class="details">подробнее</a>
+            <a href="catalog.html" class="reserve">забронировать</a>
+          </div>  
+          <div class="stars">
+            <p class="star"><img src="img/sprite/star.png" width="89" height="17" alt="star"></p>
+            <p class="rating">рейтинг:8,5</p>
+          </div>
+        </div>   
+        <div class="amara">
+          <div class="prev">
+            <img src="img/desert.jpg" width="135" height="90" alt="img">
+         
+          
+            <h2 class="desert">desert quail inn</h2>
+            <p class="spa motel">мотель<span>от 2000 р.</span></p>
+            <a href="catalog.html" class="details">подробнее</a>
+            <a href="catalog.html" class="reserve">забронировать</a>  
+          </div> 
+          <div class="stars">
+            <p class="star" style="margin-left: -41px"><img src="img/sprite/stars.png" alt="star"></p>
+            <p class="rating">рейтинг:8,9</p>
+          </div>
+         </div>
+        <div class="amara">
+          <div class="prev">
+            <img src="img/villas.jpg" width="135" height="90" alt="img">
+           
+            <h2 class="villas">villas at poco diablo</h2>
+            <p class="spa appart">апартаменты<span>от 4000 р.</span></p>
+            <a href="catalog.html" class="details">подробнее</a>
+            <a href="catalog.html" class="reserve">забронировать</a>  
+          </div> 
+          <div class="stars">
+            <p class="star" style="margin-left: -66px;"><img src="img/sprite/sta.png" alt="star"></p>
+            <p class="rating">рейтинг:9,2</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="footer-contacts">
+        <p>#visitsedona</p>
+      </section>
+      <section class="footer-social">
+        <a class="social-btn sprite-t-icons" href="index.html"></a>
+        <a class="social-btn sprite-fb-icons" href="index.html"></a>
+        <a class="social-btn sprite-you-icons" href="index.html"></a>
+      </section>
+      <section class="footer-copyright">
+        <p>website by</p>
+        <img src="img/html.png" alt="image" width="113" height="39">
+      </section>
+    </footer>
+  </div>
+    <script>
+    var b = document.documentElement;
+b.setAttribute('data-useragent',  navigator.userAgent);
+b.setAttribute('data-platform', navigator.platform );
+
+// IE 10 == Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)
+        </script>
+</body>
+</html>
