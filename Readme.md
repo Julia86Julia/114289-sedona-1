@@ -1,12 +1,12 @@
 # Личный проект «Седона»
 
-* Студент: [Юлия Старцева](https://up.htmlacademy.ru/htmlcss/13/user/114289).
+* Студент: [Юлия Старцева](https://htmlacademy.ru/profile/id114289).
 * Наставник: самостоятельная я.
 
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
+_`.editorconfig`, `.gitignore`, `Readme.md`._
 
 ---
 
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/114289-sedona) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте репозиторий](https://github.com/htmlacademy-htmlcss/114289-sedona) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391953/69fd1f32-bdfc-11e5-8430-361bff83b0f3.jpg">
 
@@ -28,7 +28,7 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку с иконкой компьютера и стрелкой, чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
+Будтьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку с иконкой компьютера и стрелкой, чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
 
 <img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391902/17d49924-bdfc-11e5-8864-05fbcbddbb90.jpg">
 
@@ -38,6 +38,6 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
 
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github.svg"></a>
+<a href="https://htmlacademy.ru/intensive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github.svg"></a>
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Базовый HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
+Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Базовый HTML и CSS](https://htmlacademy.ru/intensive)» от [HTML Academy](https://htmlacademy.ru).

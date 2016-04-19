@@ -1,0 +1,13 @@
+.search {
+    width: 48%;
+   
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/* display: none;*/
+    background: #fff;
+    position: absolute;
+/*    left: 312px;*/
+    border: 1px solid #000;
+  }
