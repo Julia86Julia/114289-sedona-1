@@ -149,6 +149,12 @@ a {
 a:hover {
     color: #81b3d2;
 }
+a:active {
+    color: #e5e5e5;
+}
+a:focus {
+    color: #766357;
+}
 .logo {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -622,6 +628,9 @@ p {
 .social-btn:hover {
      background: #669ec0 url("../img/sprite/icons.png") no-repeat center;
 }
+.social-btn:active {
+    background: #5496bd;
+}
 .footer-copyright {
     display: -webkit-box;
     display: -webkit-flex;
@@ -636,15 +645,34 @@ p {
     -ms-flex-align: center;
     align-items: center;
 }
+.footer-copyright a {
+    display: inline-flex;
+    margin-left: -40px;
+}
 .footer-copyright p {
     color: #000;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px; 
-    margin-left: 40px;
+/*    margin-left: 40px;*/
+    width: 93px;
 }
-.footer-copyright img {
-    margin-right: 5px;   
+.footer-copyright span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 26px;
+    margin-top: 10px;
+}
+.copyright {
+  width: 113px;
+  height: 40px;
+  background: url(../img/sprite/htmlacademy-logo.png) no-repeat;
+}
+.copyright:hover {
+  background-position: 0 -48px;
+}
+.copyright:active {
+    background-position: 0 -94px;
 }
 .sprite {
     background-image: url(../img/sprite/icons.png);
@@ -665,19 +693,27 @@ p {
     background-position: -28px 6px;
 /*    color: #fff;*/
 }
+.sprite-fb-icons:active {
+    background: #5496bd url("../img/sprite/fb-icons-active.png") no-repeat center;
+}
 .sprite-t-icons {
-
     background-position: -57px 8px;
 }
 .sprite-t-icons:hover {
      background-position: -57px 8px;
 }
+.sprite-t-icons:active {
+     background: #5496bd url("../img/sprite/t-icons-active.png") no-repeat center;
+}
 .sprite-you-icons {
-   
     background-position: -59px -24px;
 }
 .sprite-you-icons:hover {
      background-position: -59px -24px;
+}
+.sprite-you-icons:active {
+    background: #5496bd url("../img/sprite/you-icons-active.png") no-repeat center;
+}
 }
 h1 {
     font-family: "Myriad Pro", "Arial", sans-serif;
@@ -767,13 +803,18 @@ animation-fill-mode:forwards;
     background-image: url("../img/sprite/icons.png");
     background-repeat: no-repeat;
     background-color: #c2c2c2;
-    width: 21px;
+    width: 22px;
     height: 22px;
-    background-position: 320px 0px;
+    background-position: 317px 2px;
 }
 .sprite-calendar:hover { 
+    background-image: url("../img/sprite/calendar-hover-.png");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    background-position: 325px 10px;
     background-color: #000;
-} /*я тупая и до меня не доходит как надо делать*/
+}
 .search label,
 .select label {
     font-size: 14px;
@@ -789,14 +830,23 @@ animation-fill-mode:forwards;
     border: none;
     background-color: #f2f2f2;
     padding-left: 15px;
+    position: relative;
 }
-
+/*
+.search input::before {
+    background: url(../img/sprite/calendar.png) no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+*/
 .search input:hover {
     background-color: #ebebeb;
 }
 .search input:active {
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #e5e5e5;
+  
 }
 .search input:focus {
     background: #fff;
@@ -851,7 +901,8 @@ animation-fill-mode:forwards;
 .icon-plus:hover {
     color: #000;
 }
-.select a:focus {
+.select .icon-minus:active,
+.select .icon-plus:active {
     color: #81b3d2;
 }
 /*
@@ -871,6 +922,10 @@ animation-fill-mode:forwards;
 }
 .search-btn .btn:hover {
     background: #669ec0;
+}
+.search-btn .btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    background: #5496bd;
 }
 .filter {
     display: -webkit-box;
@@ -1225,6 +1280,9 @@ html[data-useragent*='MSIE 10.0'] .type label {
 .sort:hover {
     color: #9ac2db;
 }
+.sort:active {
+    color: #000;
+}
 .arrows {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1232,19 +1290,25 @@ html[data-useragent*='MSIE 10.0'] .type label {
     display: flex;
     font-size: 23px;
 /*    width: 47%;*/
-    margin-left: 434px;
+    margin-left: 420px;
 }
-.arrow .icon-up-dir {
+.arrows .icon-up-dir {
 /*    margin-left: 385px;*/
     color: #ccc;
+    font-size: 23px;
 }
 .icon-down-dir {
-    color: #ccc;
+    color: #81b3d2;
+    font-size: 23px;
 /*    margin-left: -20px;*/
 }
 .icon-up-dir:hover,
 .icon-down-dir:hover {
     color: #000;
+}
+.icon-up-dir:active,
+.icon-down-dir:active {
+    color: #81b3d2;
 }
 .hotels {
     display: -webkit-box;
@@ -1373,6 +1437,9 @@ html[data-useragent*='MSIE 10.0'] .appart span {
     color: #81b3d2;
     cursor: pointer;
 }
+.prev h2:active {
+    color: rgba(0, 0, 0, 0.3);
+}
 /*
 .resort .spa {
     margin-left: 30px;
@@ -1419,6 +1486,20 @@ html[data-useragent*='MSIE 10.0'] .appart span {
 .details:hover {
     background: #669ec0;
 }
+.details:active {
+    color: rgba(255, 255, 255, 0.3);
+    background: #5496bd;
+}
 .reserve:hover {
     background: #604e43;
+}
+.reserve:active {
+    color: rgba(255, 255, 255, 0.3);
+    background: #503e33;
+}
+@media screen and (max-width: 768px) {
+    .found-block {
+        width: 66%;
+        margin: 26%;
+    }
 }
