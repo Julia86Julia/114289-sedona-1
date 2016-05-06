@@ -23,12 +23,10 @@ body {
 @font-face {
   font-weight: normal;
   font-style: normal;
-
   font-family: "symbols-sedona";
   src: url("../fonts/symbols-sedona.woff") format("woff"),
        url("../fonts/symbols-sedona.woff2") format("woff2");
 }
-
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
     display: inline-block;
@@ -56,7 +54,6 @@ body {
 .icon-plus::before { content: "\e801"; } /* "" */
 .icon-minus::before { content: "\e802"; } /* "" */
 .icon-youtube::before { content: "\f39e"; } /* "" */
-
 .social-btn:hover  {
     background: #669ec0
 }
@@ -79,7 +76,6 @@ body {
     min-width: 768px;
     box-shadow: 0 0 25px #dbdbdb;
 }
-    
 .main-header {
     width: 100%;
     margin:auto;
@@ -93,7 +89,6 @@ body {
     box-sizing: border-box;
     background: #fff;
     color: #000;
-/*    margin-left: 73px;*/
 }
 .menu {
     display: -webkit-box;
@@ -117,26 +112,6 @@ body {
  .menu div {
     font-size: 14px;
     text-decoration: none;
-/*     width: 20%;*/
-/*
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align:center;
-    -webkit-align-items:center;
-    -ms-flex-align:center;
-    align-items:center; 
-*/
 }
 a {
     text-decoration: none;
@@ -168,7 +143,6 @@ a:focus {
     margin-left: -33px;
 }
 .logo img {
-/*    background: url("img/index/logo.png");*/
     margin-top: 23px;
     z-index: 99;
     position: relative;
@@ -329,26 +303,6 @@ p {
     color: #fff;
     text-align: center;
 }
-/*
-.nomber::after {
-    content: '';
-    position: relative;
-    display: block;
-    border-bottom: 2px solid #fff;
-    width: 9px;
-    top: -14px;
-    left: -15px;
-}
-.nomber::before {
-    content: '';
-    position: relative;
-    display: block;
-    border-bottom: 2px solid #fff;
-    width: 9px;
-    top: 14px;
-    right: -30px;
-}
-*/
 .photo-text-p {
     color: #fff;
     text-align: center;
@@ -356,7 +310,6 @@ p {
 }
 .photo-photos-left {
     width:66.66%;
-/*    height: 256px;*/
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -397,7 +350,6 @@ p {
 }
 .photo-photos-right {
     width: 66.66%;
-/*    height: 256px;*/
     background: url("../img/index/number.jpg") no-repeat;
     background-size: cover;
 }
@@ -425,34 +377,7 @@ p {
     text-align: center;
     background: url("../img/1icons.png") no-repeat center top;
     margin-top:60px;
-/*
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
-*/
 }
-/*
-.icons-item img {
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-*/
 .icons-item:nth-child(2) {
     background: url("../img/2icons.png") no-repeat center top;
 }
@@ -512,26 +437,7 @@ p {
     text-align: center;
     margin-bottom: 65px;
 }
-/*
-.numbers::after {
-    content: '';
-    display: block;
-    border-bottom: 2px solid #979797;
-    position: relative;
-    width: 9px;
-    top: -14px;
-    left: -15px;
-}
-.numbers::before {
-    content: '';
-    position: relative;
-    display: block;
-    border-bottom: 2px solid #979797;
-    width: 9px;
-    top: 14px;
-    right: -30px;
-}
-*/
+
 .interest {
     width: 100%;
     height: 290px;
@@ -646,6 +552,9 @@ p {
     align-items: center;
 }
 .footer-copyright a {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-left: -40px;
 }
@@ -654,22 +563,21 @@ p {
     font-size: 14px;
     font-weight: 400;
     line-height: 26px; 
-/*    margin-left: 40px;*/
     width: 93px;
 }
 .footer-copyright span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 26px;
     margin-top: 10px;
 }
 .copyright {
-  width: 113px;
-  height: 40px;
-  background: url(../img/sprite/htmlacademy-logo.png) no-repeat;
+    width: 113px;
+    height: 40px;
+    background: url(../img/sprite/htmlacademy-logo.png) no-repeat;
 }
 .copyright:hover {
-  background-position: 0 -48px;
+    background-position: 0 -48px;
 }
 .copyright:active {
     background-position: 0 -94px;
@@ -691,7 +599,6 @@ p {
 }
 .sprite-fb-icons:hover {
     background-position: -28px 6px;
-/*    color: #fff;*/
 }
 .sprite-fb-icons:active {
     background: #5496bd url("../img/sprite/fb-icons-active.png") no-repeat center;
@@ -706,15 +613,15 @@ p {
      background: #5496bd url("../img/sprite/t-icons-active.png") no-repeat center;
 }
 .sprite-you-icons {
-    background-position: -59px -24px;
+     background-position: -59px -24px;
 }
 .sprite-you-icons:hover {
      background-position: -59px -24px;
 }
 .sprite-you-icons:active {
-    background: #5496bd url("../img/sprite/you-icons-active.png") no-repeat center;
+     background: #5496bd url("../img/sprite/you-icons-active.png") no-repeat center;
 }
-}
+
 h1 {
     font-family: "Myriad Pro", "Arial", sans-serif;
     line-height:26px;
@@ -743,12 +650,12 @@ h1 {
     left: calc(50% - 284px);
      -webkit-animation-name:search;
      animation-name:search; 
--webkit-animation-duration:1.5s; 
-animation-duration:1.5s;
--webkit-animation-timing-function:ease-out;
-animation-timing-function:ease-out;
--webkit-animation-fill-mode:forwards;
-animation-fill-mode:forwards;  
+    -webkit-animation-duration:1.5s; 
+    animation-duration:1.5s;
+    -webkit-animation-timing-function:ease-out;
+    animation-timing-function:ease-out;
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;  
 
   }
 @-webkit-keyframes search {
@@ -832,14 +739,7 @@ animation-fill-mode:forwards;
     padding-left: 15px;
     position: relative;
 }
-/*
-.search input::before {
-    background: url(../img/sprite/calendar.png) no-repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-*/
+
 .search input:hover {
     background-color: #ebebeb;
 }
@@ -905,11 +805,7 @@ animation-fill-mode:forwards;
 .select .icon-plus:active {
     color: #81b3d2;
 }
-/*
-.search-btn {
-    margin-top: 55px;
-}
-*/
+
 .search-btn .btn {
     width: 465px;
     height: 60px;
@@ -969,7 +865,7 @@ animation-fill-mode:forwards;
     margin-right: 23px;
 }
 html[data-useragent*='MSIE 10.0'] .check {
-  margin-top: 1px;
+    margin-top: 1px;
     margin-left: -60px;
     margin-right: 23px;
     display: block;
@@ -994,7 +890,7 @@ html[data-useragent*='MSIE 10.0'] .check {
 .check p {
     font-size: 16px;
     line-height: 21px;
-      color: #fff;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -1005,7 +901,7 @@ html[data-useragent*='MSIE 10.0'] .check {
 html[data-useragent*='MSIE 10.0'] .check p {
     font-size: 16px;
     line-height: 21px;
-      color: #fff;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -1047,7 +943,7 @@ html[data-useragent*='MSIE 10.0'] .check label {
     margin-left: -47px;
 }
 html[data-useragent*='MSIE 10.0'] .type {
-   height: 157px;
+    height: 157px;
     margin-top: 30px;
     margin-left: -102px;
     display: block;
@@ -1058,7 +954,7 @@ html[data-useragent*='MSIE 10.0'] .type {
     margin-bottom: 25px;
     font-size: 16px;
     line-height: 21px;
-      color: #fff;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -1069,7 +965,7 @@ html[data-useragent*='MSIE 10.0'] .type p {
     margin-top: -12px;
     font-size: 16px;
     line-height: 21px;
-      color: #fff;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -1235,10 +1131,6 @@ html[data-useragent*='MSIE 10.0'] .type label {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-/*
-    max-width: 588px;
-    min-width: 525px;
-*/
     height: 30px;
     width: 54%;
 }
@@ -1289,18 +1181,15 @@ html[data-useragent*='MSIE 10.0'] .type label {
     display: -ms-flexbox;
     display: flex;
     font-size: 23px;
-/*    width: 47%;*/
     margin-left: 420px;
 }
 .arrows .icon-up-dir {
-/*    margin-left: 385px;*/
     color: #ccc;
     font-size: 23px;
 }
 .icon-down-dir {
     color: #81b3d2;
     font-size: 23px;
-/*    margin-left: -20px;*/
 }
 .icon-up-dir:hover,
 .icon-down-dir:hover {
@@ -1370,7 +1259,7 @@ html[data-useragent*='MSIE 10.0'] .type label {
     height: 93px;
 }
 html[data-useragent*='MSIE 10.0'] .amara .prev {
-     width: 80%;
+    width: 80%;
     height: 93px;
     margin-left: 76px;
 }
@@ -1412,11 +1301,7 @@ html[data-useragent*='MSIE 10.0'] .appart span {
     margin-right: 95px;
     margin-left: -12px;
 }
-/*
-.spa span {
-    padding-left: 40px;
-}
-*/
+
 .prev a {
     display: inline-block;
     color: #fff;
@@ -1428,11 +1313,7 @@ html[data-useragent*='MSIE 10.0'] .appart span {
     cursor: default;
     margin-left: 165px;
 }
-/*
-.resort h2 {
-    margin: -5px -15px -15px -85px;
-}
-*/
+
 .prev h2:hover {
     color: #81b3d2;
     cursor: pointer;
@@ -1440,20 +1321,11 @@ html[data-useragent*='MSIE 10.0'] .appart span {
 .prev h2:active {
     color: rgba(0, 0, 0, 0.3);
 }
-/*
-.resort .spa {
-    margin-left: 30px;
-    margin-bottom: 10px;
-}
-*/
+
 .spa span {
     padding-left: 43px;
 }
-/*
-.resort .details {
-    margin-left: 30px;
-}
-*/
+
 .prev .reserve {
     background: #766357;
     width: 142px;
@@ -1464,7 +1336,6 @@ html[data-useragent*='MSIE 10.0'] .appart span {
     padding-left: 77px;
 }
 .stars {
-/*    margin-left: -5px;*/
     width: 15%;
     height: 93px;
 }
@@ -1496,10 +1367,4 @@ html[data-useragent*='MSIE 10.0'] .appart span {
 .reserve:active {
     color: rgba(255, 255, 255, 0.3);
     background: #503e33;
-}
-@media screen and (max-width: 768px) {
-    .found-block {
-        width: 66%;
-        margin: 26%;
-    }
 }
