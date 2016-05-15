@@ -606,7 +606,7 @@ footer {
     font-size: 0px;
 }
 .filter {
-    background: #63696f url(../img/background-hotels.jpg);
+    background: #63696f url("../img/filter.jpg");
     padding-top: 14px;
     padding-left: 73px;
     padding-right: 73px;
