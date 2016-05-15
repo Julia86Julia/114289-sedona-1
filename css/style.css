@@ -148,6 +148,9 @@ li {
     position: relative;
     left: 255px;
 }
+.menu li:nth-child(4) a {
+    width: 100px;
+}
 .menu a:hover {
     color: #81b3d2;
 }
@@ -271,10 +274,10 @@ li {
     background-image: url("../img/services-icon.png");
     background-repeat: no-repeat;
 }
-.icon-item:nth-child(2)::before {
+.icons-item:nth-child(2)::before {
     background-position: -75px 1px;
 }
-.icon-item:nth-child(3)::before {
+.icons-item:nth-child(3)::before {
     width: 64px;
     margin-left: 4px;
     background-position: -150px 0px;
@@ -403,6 +406,7 @@ animation-fill-mode:forwards;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 29px;
+    cursor: pointer;
 }
 .search-block input {
     display: inline-block;
@@ -628,6 +632,7 @@ footer {
     display: block;
     padding-top: 12px;
     padding-bottom: 13px;
+    cursor: pointer;
 }
 .infra h2,
 .house h2 {
@@ -725,8 +730,7 @@ button {
     background: none;
     border: none;
     outline: none;
-    font: inherit;
-    color: inherit;
+    color: #fff;;
 }
 .filter-range {
     position: relative;
@@ -900,6 +904,7 @@ button {
     padding-top: 30px;
     padding-bottom: 19px;
     padding-left: 73px;
+    cursor: pointer;
 }
 .name {
     display: inline-block;
@@ -975,27 +980,23 @@ button {
     margin-left: 14px;
     margin-top: 32px;
 }
-.icon-star {
-    display: inline-block;
-    vertical-align: top;
-    content: "0x2605";
-    font-size: 18px;
-    line-height: 18px;
-    color: #81b3d2;
-    margin-left: -1px;
+.star img {
+    cursor: pointer;
 }
 .stars span {
     display: block;
     color: #666666;
     background: #f2f2f2;
     margin-top: 42px;
+    margin-left: -15px;
     padding-bottom: 1px;
-    padding-left: 1px;
+    padding-left: 14px;
     padding-right: 13px;
     text-align: center;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
+    cursor: pointer;
 }
 /*
 @-webkit-keyframes show {
